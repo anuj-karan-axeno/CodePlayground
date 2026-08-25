@@ -1,0 +1,8 @@
+@use "base/reset";
+@use "abstracts/variables" as *;
+@use "layout/text-area";
+
+.app{
+    background: #000;
+    height: 100vh;
+}

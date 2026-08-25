@@ -1,0 +1,132 @@
+// ─── Colors ───────────────────────────────────
+ 
+$arena-bg: #111318;
+
+$arena-panel: #191c24;
+
+$arena-panel-hover: #20242e;
+ 
+$ink-main: #e8e7e3;
+
+$ink-muted: #8f929d;
+ 
+$race-purple: #9b8afb;
+
+$race-purple-soft: #2d2940;
+ 
+$success-mint: #7fc8a9;
+
+$error-rose: #d98282;
+
+$streak-gold: #d6b878;
+ 
+ 
+// ─── Typing Area ──────────────────────────────
+ 
+$typing-text: #b9bbc4;
+
+$typing-current: #f4f1e8;
+
+$typing-correct: #7fc8a9;
+
+$typing-wrong: #d98282;
+
+$typing-cursor: #9b8afb;
+ 
+ 
+// ─── Leaderboard ─────────────────────────────
+ 
+$rank-gold: #d6b878;
+
+$rank-silver: #aeb2bc;
+
+$rank-bronze: #b8896b;
+ 
+$player-active: #9b8afb;
+
+$player-idle: #555966;
+ 
+ 
+// ─── Game Feedback ───────────────────────────
+ 
+$score-highlight: #d6b878;
+
+$streak-highlight: #d6b878;
+
+$timer-warning: #d98282;
+ 
+$progress-track: #292d36;
+
+$progress-fill: #9b8afb;
+ 
+ 
+// ─── Typography ──────────────────────────────
+ 
+$font-ui: "Inter", sans-serif;
+
+$font-code: "JetBrains Mono", monospace;
+ 
+$size-caption: 1rem;       // 12px
+
+$size-label: 1.5rem;        // 14px
+
+$size-body: 3rem;             // 16px
+
+$size-subtitle: 2rem;      // 20px
+
+$size-heading: 4rem;       // 28px
+
+$size-score: 8rem;          // 40px
+ 
+ 
+// ─── Spacing ──────────────────────────────────
+ 
+$gap-tiny: 0.25rem;           // 4px
+
+$gap-small: 0.5rem;            // 8px
+
+$gap-compact: 0.75rem;        // 12px
+
+$gap-standard: 1rem;           // 16px
+
+$gap-section: 1.5rem;          // 24px
+
+$gap-large: 2rem;              // 32px
+
+$gap-screen: 5rem;             // 48px
+ 
+ 
+// ─── Padding ──────────────────────────────────
+ 
+$padding-xs: 1rem;          // 8px
+
+$padding-sm: 1.5rem;          // 12px
+
+$padding-md: 2.5rem;             // 16px
+
+$padding-lg: 4rem;           // 24px
+
+$padding-xl: 5rem;             // 32px
+
+$padding-screen: 10rem;         // 48px
+ 
+ 
+// ─── Game Shapes ─────────────────────────────
+ 
+$card-radius: 0.625rem;       // 10px
+
+$panel-radius: 1rem;           // 16px
+
+$badge-radius: 999rem;
+ 
+$game-border-width: 0.0625rem; // 1px
+
+$game-border: $game-border-width solid #2a2e38;
+ 
+ 
+// ─── Effects ──────────────────────────────────
+ 
+$game-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.2);
+
+$game-transition: 0.2s ease;
+ 
