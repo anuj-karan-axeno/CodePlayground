@@ -46,15 +46,25 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10rem;
+  padding: 5rem;
   color: #8f929d;
 }
 .textArea__text {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 5rem;
   font-weight: lighter;
   word-spacing: 1rem;
   font-family: "JetBrains Mono", monospace;
+}
+@media (max-width: 992px) {
+  .textArea__text {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 992px) {
+  .textArea {
+    padding: 1.5rem;
+  }
 }
 
 .app {

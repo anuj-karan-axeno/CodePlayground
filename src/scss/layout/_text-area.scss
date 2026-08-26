@@ -1,18 +1,25 @@
 @use "../abstracts/variables" as *;
 
-.textArea{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10rem;
-    color: $ink-muted;
-    &__text{
-        font-size: $size-heading;
-        line-height: $gap-screen;
-        font-weight: lighter;
-        word-spacing: $gap-standard;
-        font-family: $font-code;
+.textArea {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: $padding-xl;
+  color: $ink-muted;
+  &__text {
+    font-size: $size-heading;
+    line-height: $gap-screen;
+    font-weight: lighter;
+    word-spacing: $gap-standard;
+    font-family: $font-code;
+
+    @media (max-width: 992px) {
+      font-size: $size-heading;
     }
+  }
+  @media (max-width: 992px) {
+    padding: $gap-section;
+  }
 }
