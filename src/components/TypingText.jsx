@@ -1,15 +1,40 @@
 import React from 'react'
+import Letter from './Letter';
 
-const TypingText = () => {
-  return (
-    <>
-        <div className="textArea">
-            <h2 className="textArea__text">
-                Learning to code takes patience and practice. Sometimes a simple problem can take hours to solve, but every mistake teaches you something new.
-            </h2>
-        </div>
-    </>
-  )
-}
+const TypingText = ({ text }) => {
+    const currentWordIndex = 8;
+    const currentLetterIndex = 2;
 
-export default TypingText
+    const renderLetter = (char, wordIndex, charIndex) => {
+        const isActive =
+            wordIndex === currentWordIndex &&
+            charIndex === currentLetterIndex;
+
+        const className = isActive
+            ? 'word__char word__char--active'
+            : 'word__char';
+
+        return (
+            <Letter
+                key={charIndex}
+                char={char}
+                className={className}
+            />
+        );
+    };
+
+    return (
+        <>
+            {text.map((word, wordIndex) => (
+                <div className="word" key={wordIndex}>
+                    {word.map((char, charIndex) =>
+                        renderLetter(char, wordIndex, charIndex)
+                    )}
+                </div>
+            ))}
+        </>
+    );
+};
+
+export default TypingText;
+

@@ -1,11 +1,11 @@
 import React from 'react'
-import TypingText from './components/TypingText'
 import "./scss/style.scss";
+import TypingArea from './components/TypingArea';
 
 const App = () => {
   return (
     <div className='app'>
-      <TypingText />
+      <TypingArea />
     </div>
   )
 }

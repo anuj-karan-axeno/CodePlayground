@@ -8,17 +8,7 @@
   align-items: center;
   padding: $padding-xl;
   color: $ink-muted;
-  &__text {
-    font-size: $size-heading;
-    line-height: $gap-screen;
-    font-weight: lighter;
-    word-spacing: $gap-standard;
-    font-family: $font-code;
 
-    @media (max-width: 992px) {
-      font-size: $size-heading;
-    }
-  }
   @media (max-width: 992px) {
     padding: $gap-section;
   }
