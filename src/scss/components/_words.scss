@@ -9,9 +9,9 @@
     }
 }
 
-.word{
-     &__char {
-         font-size: $size-heading;
+.word {
+    &__char {
+        font-size: $size-heading;
         font-weight: lighter;
         word-spacing: $gap-standard;
         font-family: $font-code;
@@ -21,8 +21,16 @@
             font-size: $size-subtitle;
         }
 
-        &--active{
+        &--active {
             border-color: $streak-gold;
+        }
+
+        &--success {
+            color: $success-mint;
+        }
+
+        &--error {
+            color: $error-rose;
         }
     }
 }
