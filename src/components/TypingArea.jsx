@@ -44,7 +44,7 @@ const TypingArea = () => {
 
       const expectedLetter = currentWord[currentLetterIndex];
 
-      if (event.key === expectedLetter) {
+      if (e.key === expectedLetter) {
         currentLetter.classList.add('word__char--success');
         currentLetter.classList.remove('word__char--error');
 
