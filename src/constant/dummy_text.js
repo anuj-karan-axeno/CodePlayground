@@ -20,4 +20,5 @@ export const dummy_text = [
     ['a', 'b', 'o', 'v', 'e', ' '],
     ['t', 'h', 'e', ' '],
     ['t', 'r', 'e', 'e', 's', ' ']
+
 ];
