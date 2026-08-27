@@ -77,12 +77,6 @@ ol {
 .word__char--active {
   border-color: #d6b878;
 }
-.word__char--success {
-  color: #7fc8a9;
-}
-.word__char--error {
-  color: #d98282;
-}
 
 .app {
   background: #000;
