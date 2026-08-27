@@ -2,8 +2,9 @@ import React from 'react'
 import Letter from './Letter';
 
 const TypingText = ({ text }) => {
-    const currentWordIndex = 8;
-    const currentLetterIndex = 2;
+    const currentWordIndex = 0;
+    const currentLetterIndex = 0;
+    
 
     const renderLetter = (char, wordIndex, charIndex) => {
         const isActive =
